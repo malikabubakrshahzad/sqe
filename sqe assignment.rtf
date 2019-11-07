@@ -1,0 +1,158 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Arial Black;}}
+{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9         \b\f1\fs52 E-Health Architecture   System\par
+\par
+\f0\fs36 Table of Contents \b0\fs32\par
+\b 1. Introduction \b0\par
+1.1 Purpose \par
+1.2 Scope \par
+1.3 Definitions & Acronyms \par
+1.4 References \par
+\b 2 Description of Project \b0\par
+2.1 overall description\par
+2.2 Product functions\par
+2.3usercharacteristics \par
+2.4 constraints\par
+2.5 assumptions and dependcies \par
+\b 3 Specific Requirements \b0\par
+ 2.1 design constraints\par
+ 2.2 software system attributes\par
+2.3 functional requirements\par
+ 2.4 non-functional requirements\par
+ 2.5 item evolution\par
+\par
+ \b\f1\par
+\fs36  1. Introduction \par
+\b0\f0\fs32 This section gives a scope description and overview of everything included in this SRS                           \par
+document. Also, the purpose for this document is described and a list of abbreviations and                             \par
+definitions is provided. \par
+\b 1.1Purpose \b0\par
+The purpose of this document is to give a detailed description of the requirements for proposing                               \par
+an efficient \ldblquote E-Health Architecture system\rdblquote . It will illustrate the purpose and complete                         \par
+declaration for the development of system. This document is primarily intended for a customer\rquote s                           \par
+approval and as a reference for developing the demo version.  \par
+\b 1.2 Scope \b0\par
+The title \ldblquote E-Health Architecture\rdblquote  itself describes its objective. E-Health Architecture                       \par
+is a hardware and software-based integrated web architecture which aims to provide online                         \par
+health facilities . This architecture will help an organization launch any web-based                         \par
+health program over the country. \par
+\b 1.3 Definitions & Acronyms \par
+\b0 This section consists of terms, their definitions and acronyms which will be used throughout the                             \par
+document. \par
+ \par
+\b Dashboard\b0 : A dashboard  is the panel for any system which contains tools as softwares to                          \par
+monitor and deploy services. \b\par
+ \par
+Dedicated Server:  \b0 A dedicated server is a single computer in a network reserved for serving   the needs of the network \par
+\par
+\b Health Facilities: \b0 Health facilities are places that provide health care. They include hospitals, clinics, outpatient care centers, and specialized care centers, such as birthing centers and                         \par
+psychiatric care centers. \par
+ \par
+CAAS: Conformity Assessment Activities and Stakeholders \par
+GUI:Graphical User Interface \par
+ISP: Internet Service Provider \par
+MoHP: Ministry of Health and Population \par
+RAID: Redundant Array of Independent Disks \par
+\b 1.4 References \b0\par
+[1] Software Requirements Specification, Computer Information Systems Program, Janusz                 \par
+Zalewski, Ph.D College of Business,Florida Gulf Coast University \par
+[2] Software Engineering:A Practitioner\rquote s Approach,Seventh Edition,2010 \par
+[3] Software Engineering, Ninth Edition, Ian Sommerville,2011 \par
+[4] Web Based Project Management System, Anne-Mai Adamson,2010 \par
+\par
+\b  2.1 Overall Description \par
+\b0 This section will give an overview of the whole system showing its interaction with other interrelated systems. The basic functionality of the system will also be explained. This section will explain the types of stakeholders who will use the system and their respective available functionality. The constraints and assumptions used for the system is also explained at the end. \par
+\b 2.2 Product functions \b0\par
+With the server-side web portal or dashboard, system administrator will be able to deploy thehealth applications, so that clients (all health facilities) will be able to use them. Whereas in                              client side, the technical officer will use the web application online and will also be able to view  the available applications online. Data input by every health facilities from all over the countries                             will concurrently be stored in the server through the E-Health Architecture. \par
+\b 2.3 user caracteristics\b0\par
+There are four types of users who interact with the system: client side users i.e. employees or lower level health facility users. \par
+ \b Lower level health facilities users \b0 are only concerned with limited objectives like data input to                             \par
+the server. They will input all medical or patient related data to the server. To input data users                                   \par
+must be able to search andview their requiredapplication.\par
+ \par
+\b Data engineer \b0 are only concerned with data and data operations. Data engineers will be filtering the raw data. They will classify it from data sets. From the generated datasets; data will                           be analysed using applications provided by the architecture. \par
+ \par
+\b High Level Officers \b0 are only concerned with the use of the dashboard. High level officers are  also client-side users. They use the architecture to use certain components like report generating,                           \par
+viewing and  exporting tools. \par
+ \par
+\b System Administrator \b0 A system administrator is solely responsible for smooth operation of                       \par
+E-Health Architecture. It is system administrator who monitors, maintains and authorises the  hardware components as well as software resources to the end users.  \par
+Besides these four user characteristics, for the development of softwares and its stability:                         \par
+Software Developers and Support Communities are also essential. They are responsible for                       \par
+assessment activities and communicating with various stakeholders of the system. Details about                       \par
+these users are described in appendix 1\par
+\b 2.4 constraints\b0\par
+The architecture is targeted to run all over the country. So being a huge system it needs to face several constraints and limitations which may lag the performance of architecture. As the                              architecture will be set up with government support, after the system is set up, skilled manpower will also play key role in delivering the quality service to the users. As E-Health architecture is   about providing services online, we should make sure the power supply, internet, internet  bandwidth and communication with central server is always up and functioning. The architecture                        will receive huge no. of data so the classification of applications, targeted user groups and    classification of data are some essential constraints to be considered throughout the development                         \par
+\par
+\b 2.5assumptions and   dependencies \b0\par
+The architecture will be focusing on providing E-Health facilities online. So our assumption is that the internet facility, power supply, backup power, internet bandwidth is always up and                           functioning. Another assumption also a dependency for the architecture is hardware  configuration of the central server. We assume that the hardware will be above specification, so                             thatit  will not need to face any   problem.\par
+\b\f1 Specific Requirements\b0\f0\par
+\b  design  Constraints \b0\par
+This   section   includes   the   design   constraints   on   the   architecture   caused   by   the   hardware. \par
+\b   Software  system attributes\b0\par
+The requirements in this section specify the required reliability, availability, security & maintainability  of   the   software   system. \par
+ \par
+\b  Functional   Requirements \b0\par
+\par
+TITLE  :   Access  the  web  portal \par
+DESC: A user should be able to access the wep portal. The access should not be restricted to registered users. Someone who is not registered should also be able to read the   relevant  Health  information.\par
+RAT : To   access   health   related   information \par
+\par
+TITLE:  Constantly  update  and  notify  government\rquote s  Health/eHealth   policy. \par
+DESC : The web portal should always be up-to-date in regard to the government\rquote s  policy.It should should notify the users about the new policy and rules made by the  authority. \par
+RAT:  to give  user  an   up-to-date   information \par
+ \par
+TITLE   :   User   registration \par
+DESC : A user, as specified in earlier section must be able to register their credentials.                             \par
+They should provide their basic information about themselves for eg. name, address, email, phone number. They should also identify themselves the kind of users (mentioned  under   user   characteristics).\par
+\par
+TITLE:   User   Verification: \par
+DESC  : User should be able to verify them through their email. A link in the email                                \par
+should   be   provided   for  the  user  to  follow  if   he/she   is  logging   for   the   very   first   time. \par
+RAT  :   In   order   for   a   real    user  to   register \par
+ \b\par
+ Non-FunctionalRequirements: \par
+\b0\par
+TITLE   :   Usability \par
+DESC : The system should be easy to use and learn in every aspects. The new users                               \par
+should   get   used   to   in   the   system   fast   a    possible. \par
+\par
+TITLE   :   Reliability \par
+DESC  : The system shall be available for use at 24 hours a day, 7 days a week. The data   storage shall be available for use 24 hours a day, 7 days a week. The system may get  failed   few   times   in   a   year   and   had   a   small   maintenance   time. \par
+\par
+TITLE   :   Hardware \par
+\par
+Mobile   Requirements \par
+Nowadays handheld devices are one of the best tool for raw data entry. With the help of    mobile devices patient\rquote s and other related medical data can be entered on the go. The web                               \par
+portal    can   be   accessed   through   various   smart   phone   platform   like \par
+i) IOS  \par
+ii)Android \par
+iii)Blackberry \par
+\b  \par
+Server equirements \par
+\b0 The server hardware specification depends on the amount of data to be processed and the                             \par
+number of users accessing the server database. The specification of server usually                       \par
+increases with increase in the number of end users. However, a general estimate for a                             \par
+5000 users.\par
+\par
+ \b System   Evolution :\b0\par
+ \par
+The preliminary stage of E-Health Architecture, gives a high chance to evolve into better system                             \par
+with many stable features in upcoming future. Gaining its stability, the system targets to                           \par
+incorporate more hardware and software tools, security and software updates. With the evolution                         \par
+of the system, it becomes more and more stable and shall become robust E-Health architecture.\par
+ \par
+Following   are   some   new   features   which   can   be   expanded   in   the   architecture: \par
+ \par
+1. Present architecture focuses only in available internet facility, but in future the                       \par
+architecture   can   provide   internet  facility   of   its   own(   Government   as   ISP). \par
+ \par
+2. Bandwidth allocation and routing feature can be integrated in future, so that data can be available   everywhere   and   reliable   for   every   targeted   user   groups. \par
+ \par
+3. The architecture can incorporate documents and tools to teach users about the uses,                         \par
+objectives   and   ways   of   troubleshooting   them. \par
+ \par
+  \par
+\par
+}
+ 
